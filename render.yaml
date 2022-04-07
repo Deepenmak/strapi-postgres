@@ -3,7 +3,7 @@ services:
     name: strapi-local
     env: node
     plan: starter
-    buildCommand: yarn install && yarn build
+    buildCommand: yarn install && yarn develop
     startCommand: yarn start
     healthCheckPath: /_health
     disk:
